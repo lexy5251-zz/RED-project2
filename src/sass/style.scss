@@ -1,0 +1,107 @@
+.color-white {
+	color:white;
+}
+
+.margin-auto {
+	margin: 0 auto;
+}
+
+.display-flex {
+	display:flex;
+}
+
+.text-center{
+	text-align: center;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: black;
+	font-family: Open Sans, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.container {
+	max-width: 1240px;
+}
+
+header {
+	margin-top: 5%;
+}
+
+.content {
+	@extend .color-white;
+}
+
+.dropdown {
+	@extend .margin-auto;
+	width: 70%;
+}
+
+.loading-logo {
+	@extend .display-flex;
+	justify-content: center;
+}
+
+#load {
+	max-width: 100%;
+	display: none;
+	height: 50px;
+	@extend .margin-auto;
+	
+}
+
+.head-large {
+	@extend .text-center;
+    
+}
+
+.head-small {
+	@extend .text-center;
+
+}
+
+.all-articles {
+	flex: 0 1 100%;
+	@extend .display-flex;
+	background-size: cover;
+	width: 100%;    
+	height: 400px;
+	max-width: 100%;
+
+}
+
+
+.news-articles {
+	padding-top: 20%;
+	@extend .display-flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+	@extend .margin-auto;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	line-height: 1.5rem;
+	padding: 2%;
+}
+
+
+p {
+	width: 100%;
+	@extend .color-white;
+}
+
+
+
+footer {
+	@extend .text-center;
+	margin-top: 20%;
+}
