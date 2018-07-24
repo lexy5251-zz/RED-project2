@@ -33,21 +33,23 @@ header {
 }
 
 .loading-logo {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.loading {
-
-    display: none;
-	height: 50px;
-	margin: 0 auto;
 }
 
 .logo-small {
 	height: 100px;
 }
+
+
+.loading {
+    align-self: center;
+    display: none;
+    height: 80px;
+    margin: 0 auto;
+}
+
 
 #load {
     max-width: 100%;
@@ -115,24 +117,26 @@ p {
         align-self: center;
         width: 27%;
         margin-left: 0px;
+        margin-right: 5%;
         
     }
 
     .head-large {
         width: 80%;
     	text-align: left;
-        margin-left: 20%;
+        /*margin-left: 20%;*/
     }
 
     .head-small {
         text-align: left;
         margin-bottom: 3%;
-        margin-left: 5%;
+      /*  margin-left: 5%;*/
         width: 80%;
+        justify-content: left;
     }
 
     .container {
-        justify-content: left;
+        /*justify-content: left;*/
     }
 
     .logo-large {
@@ -174,18 +178,18 @@ p {
     }
 
     .head-large {
-        margin-left: 3%;
+        /*margin-left: 3%;*/
         margin-top: 10%;
+        width: 50%;
     }
 
     .content {
-        position: absolute;
-        bottom: 5px;
         font-size: 18px;
     }
 
     .head-small {
         margin-top: 5%;
+        margin-left: 3%;
     }
 
 
